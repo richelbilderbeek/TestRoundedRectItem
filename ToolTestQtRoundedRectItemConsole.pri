@@ -1,14 +1,14 @@
 INCLUDEPATH += \
-    ../../Tools/ToolTestQtRoundedRectItem
+    ../TestRoundedRectItem
 
 SOURCES += \
-    ../../Tools/ToolTestQtRoundedRectItem/testqtroundedrectitemmenudialog.cpp
+    ../TestRoundedRectItem/testqtroundedrectitemmenudialog.cpp
 
 HEADERS += \
-    ../../Tools/ToolTestQtRoundedRectItem/testqtroundedrectitemmenudialog.h
+    ../TestRoundedRectItem/testqtroundedrectitemmenudialog.h
 
 OTHER_FILES += \
-    ../../Tools/ToolTestQtRoundedRectItem/Licence.txt
+    ../TestRoundedRectItem/Licence.txt
 
 RESOURCES += \
-    ../../Tools/ToolTestQtRoundedRectItem/ToolTestQtRoundedRectItem.qrc
+    ../TestRoundedRectItem/ToolTestQtRoundedRectItem.qrc

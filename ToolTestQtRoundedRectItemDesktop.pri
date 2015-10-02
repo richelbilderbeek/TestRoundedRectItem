@@ -1,19 +1,19 @@
-include(../../Tools/ToolTestQtRoundedRectItem/ToolTestQtRoundedRectItemConsole.pri)
+include(../TestRoundedRectItem/ToolTestQtRoundedRectItemConsole.pri)
 
 HEADERS += \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemwidget.h \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemmenudialog.h \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemcomparedialog.h \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemmodifydialog.h
+    ../TestRoundedRectItem/qttestqtroundedrectitemwidget.h \
+    ../TestRoundedRectItem/qttestqtroundedrectitemmenudialog.h \
+    ../TestRoundedRectItem/qttestqtroundedrectitemcomparedialog.h \
+    ../TestRoundedRectItem/qttestqtroundedrectitemmodifydialog.h
 
 SOURCES += \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemwidget.cpp \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemmenudialog.cpp \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemcomparedialog.cpp \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemmodifydialog.cpp
+    ../TestRoundedRectItem/qttestqtroundedrectitemwidget.cpp \
+    ../TestRoundedRectItem/qttestqtroundedrectitemmenudialog.cpp \
+    ../TestRoundedRectItem/qttestqtroundedrectitemcomparedialog.cpp \
+    ../TestRoundedRectItem/qttestqtroundedrectitemmodifydialog.cpp
 
 FORMS += \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemmenudialog.ui \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemcomparedialog.ui \
-    ../../Tools/ToolTestQtRoundedRectItem/qttestqtroundedrectitemmodifydialog.ui
+    ../TestRoundedRectItem/qttestqtroundedrectitemmenudialog.ui \
+    ../TestRoundedRectItem/qttestqtroundedrectitemcomparedialog.ui \
+    ../TestRoundedRectItem/qttestqtroundedrectitemmodifydialog.ui
 
