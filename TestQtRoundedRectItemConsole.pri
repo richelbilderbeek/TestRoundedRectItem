@@ -11,4 +11,4 @@ OTHER_FILES += \
     ../TestRoundedRectItem/Licence.txt
 
 RESOURCES += \
-    ../TestRoundedRectItem/ToolTestQtRoundedRectItem.qrc
+    ../TestRoundedRectItem/TestQtRoundedRectItem.qrc

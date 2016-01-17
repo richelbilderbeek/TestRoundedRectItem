@@ -19,8 +19,8 @@
    <string>TestQtRoundedRectItem</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestQtRoundedRectItem.qrc">
-    <normaloff>:/images/ToolTestQtRoundedRectItemIcon.png</normaloff>:/images/ToolTestQtRoundedRectItemIcon.png</iconset>
+   <iconset resource="TestQtRoundedRectItem.qrc">
+    <normaloff>:/images/TestQtRoundedRectItemIcon.png</normaloff>:/images/TestQtRoundedRectItemIcon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog { 
@@ -47,7 +47,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolTestQtRoundedRectItem.qrc">:/images/ToolTestQtRoundedRectItemWelcomeModify.png</pixmap>
+      <pixmap>:/images/ToolTestQtRoundedRectItemWelcomeModify.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -70,7 +70,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolTestQtRoundedRectItem.qrc">:/images/ToolTestQtRoundedRectItemWelcome.png</pixmap>
+      <pixmap>:/images/ToolTestQtRoundedRectItemWelcome.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -103,7 +103,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolTestQtRoundedRectItem.qrc">:/images/ToolTestQtRoundedRectItemWelcomeAbout.png</pixmap>
+      <pixmap>:/images/ToolTestQtRoundedRectItemWelcomeAbout.png</pixmap>
      </property>
     </widget>
    </item>
@@ -113,7 +113,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolTestQtRoundedRectItem.qrc">:/images/ToolTestQtRoundedRectItemWelcomeQuit.png</pixmap>
+      <pixmap>:/images/ToolTestQtRoundedRectItemWelcomeQuit.png</pixmap>
      </property>
     </widget>
    </item>
@@ -124,7 +124,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
   <tabstop>button_quit</tabstop>
  </tabstops>
  <resources>
-  <include location="ToolTestQtRoundedRectItem.qrc"/>
+  <include location="TestQtRoundedRectItem.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -7,7 +7,6 @@
 #include "geometry.h"
 #include "plane.h"
 #include "ribi_regex.h"
-#include "richelbilderbeekprogram.h"
 #include "testtimer.h"
 #include "trace.h"
 
@@ -32,11 +31,12 @@ ribi::About ribi::TestQtRoundedRectItemMenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "TestQtRoundedRectItem",
     "tests QtRoundedRectItemt",
-    "the 14th of June 2014",
-    "2012-2015",
+    "January 17th of 2016",
+    "2012-2016",
     "http://www.richelbilderbeek.nl/ToolTestQtRoundedRectItem.htm",
     GetVersion(),
-    GetVersionHistory());
+    GetVersionHistory()
+  );
   a.AddLibrary("FileIo version: " + fileio::FileIo().GetVersion());
   a.AddLibrary("Geometry version: " + Geometry().GetVersion());
   a.AddLibrary("Plane version: " + Plane::GetVersion());
@@ -61,7 +61,7 @@ ribi::Help ribi::TestQtRoundedRectItemMenuDialog::GetHelp() const noexcept
 
 std::string ribi::TestQtRoundedRectItemMenuDialog::GetVersion() const noexcept
 {
-  return "1.6";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::TestQtRoundedRectItemMenuDialog::GetVersionHistory() const noexcept
@@ -72,8 +72,9 @@ std::vector<std::string> ribi::TestQtRoundedRectItemMenuDialog::GetVersionHistor
     "2013-11-05: version 1.2: conformized for ProjectRichelBilderbeekConsole",
     "2014-06-10: version 1.3: use QtKeyboardFriendlyGraphicView in desktop version",
     "2014-06-14: version 1.4: added 'Modify' dialog to desktop version",
-    "2016-06-14: version 1.5: fixed issue #219",
-    "2016-06-16: version 1.6: added QtRoundedEditRectItemDialog"
+    "2015-06-14: version 1.5: fixed issue #219",
+    "2015-06-16: version 1.6: added QtRoundedEditRectItemDialog",
+    "2016-01-17: version 2.0: moved to own GitHub",
   };
 }
 

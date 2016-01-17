@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>TestQtRoundedRectItemIcon.png</file>
+        <file>TestQtRoundedRectItemWelcome.png</file>
+        <file>TestQtRoundedRectItemWelcomeAbout.png</file>
+        <file>TestQtRoundedRectItemWelcomeModify.png</file>
+        <file>TestQtRoundedRectItemWelcomeQuit.png</file>
+    </qresource>
+</RCC>
