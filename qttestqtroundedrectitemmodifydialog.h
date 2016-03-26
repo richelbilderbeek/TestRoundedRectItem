@@ -67,10 +67,6 @@ private:
   static boost::shared_ptr<QtRoundedRectItem> CreateRandomItem() noexcept;
 
   void SetItem(const boost::shared_ptr<QtRoundedRectItem>& item) noexcept;
-
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
 };
 
 } //~namespace ribi
