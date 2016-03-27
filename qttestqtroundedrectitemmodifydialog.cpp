@@ -59,7 +59,12 @@ ribi::QtTestQtRoundedRectItemModifyDialog::QtTestQtRoundedRectItemModifyDialog(Q
 
   {
     QTimer * const timer = new QTimer(this);
-    QObject::connect(timer,&QTimer::timeout,this,&ribi::QtTestQtRoundedRectItemModifyDialog::DoSomethingRandom);
+    QObject::connect(
+      timer,
+      SIGNAL(timeout()),
+      this,
+      SLOT(DoSomethingRandom())
+    );
     timer->setInterval(100);
     timer->start();
   }
