@@ -24,3 +24,13 @@ include(TestQtRoundedRectItemDesktop.pri)
 
 SOURCES += qtmain.cpp
 
+# gcov
+QMAKE_CXXFLAGS += -fprofile-arcs -ftest-coverage
+LIBS += -lgcov
+
+# gprof
+QMAKE_CXXFLAGS_DEBUG += -pg
+QMAKE_LFLAGS_DEBUG += -pg
+
+# QResources give this error
+QMAKE_CXXFLAGS += -Wno-unused-variable
