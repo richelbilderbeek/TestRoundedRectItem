@@ -35,9 +35,6 @@ ribi::QtTestQtRoundedRectItemCompareDialog::QtTestQtRoundedRectItemCompareDialog
     QtHideAndShowDialog(parent),
     ui(new Ui::QtTestQtRoundedRectItemCompareDialog)
 {
-  #ifndef NDEBUG
-  Test();
-  #endif
   ui->setupUi(this);
 }
 
@@ -50,15 +47,3 @@ void ribi::QtTestQtRoundedRectItemCompareDialog::keyPressEvent(QKeyEvent * event
 {
   if (event->key() == Qt::Key_Escape) { close(); return; }
 }
-
-#ifndef NDEBUG
-void ribi::QtTestQtRoundedRectItemCompareDialog::Test() noexcept
-{
-  {
-    static bool is_tested{false};
-    if (is_tested) return;
-    is_tested = true;
-  }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
-}
-#endif

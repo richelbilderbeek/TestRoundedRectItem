@@ -43,9 +43,6 @@ ribi::QtTestQtRoundedRectItemMenuDialog::QtTestQtRoundedRectItemMenuDialog(QWidg
     QtHideAndShowDialog(parent),
     ui(new Ui::QtTestQtRoundedRectItemMenuDialog)
 {
-  #ifndef NDEBUG
-  Test();
-  #endif
   ui->setupUi(this);
 }
 
@@ -81,20 +78,6 @@ void ribi::QtTestQtRoundedRectItemMenuDialog::on_button_compare_clicked()
   QtTestQtRoundedRectItemCompareDialog d;
   ShowChild(&d);
 }
-
-#ifndef NDEBUG
-void ribi::QtTestQtRoundedRectItemMenuDialog::Test() noexcept
-{
-  {
-    static bool is_tested{false};
-    if (is_tested) return;
-    is_tested = true;
-  }
-  QtTestQtRoundedRectItemCompareDialog();
-  QtTestQtRoundedRectItemModifyDialog();
-  const TestTimer test_timer(__func__,__FILE__,1.0);
-}
-#endif
 
 void ribi::QtTestQtRoundedRectItemMenuDialog::on_button_modify_clicked()
 {

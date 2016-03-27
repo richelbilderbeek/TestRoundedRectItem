@@ -17,10 +17,17 @@ include(../RibiClasses/CppRibiSystem/CppRibiSystem.pri)
 include(../RibiClasses/CppRibiTime/CppRibiTime.pri)
 include(../RibiClasses/CppQtKeyboardFriendlyGraphicsView/CppQtKeyboardFriendlyGraphicsView.pri)
 include(../RibiClasses/CppQtRoundedRectItem/CppQtRoundedRectItem.pri)
+include(../RibiClasses/CppQtRoundedRectItem/CppQtRoundedRectItemTest.pri) # Just to have something to test
 #include(../RibiClasses/CppQtRoundedEditRectItem/CppQtRoundedEditRectItem.pri)
 #include(../RibiClasses/CppQtRoundedTextRectItem/CppQtRoundedTextRectItem.pri)
 
 include(TestQtRoundedRectItemDesktop.pri)
+include(TestQtRoundedRectItemDesktopTest.pri)
 
-SOURCES += qtmain.cpp
+SOURCES += qtmain_test.cpp
 
+# Boost.Test
+LIBS += -lboost_unit_test_framework
+
+# Boost.DateTime
+LIBS += -lboost_date_time

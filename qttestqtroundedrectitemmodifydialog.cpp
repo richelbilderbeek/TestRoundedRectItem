@@ -44,9 +44,6 @@ ribi::QtTestQtRoundedRectItemModifyDialog::QtTestQtRoundedRectItemModifyDialog(Q
     m_dialog_left(new QtRoundedRectItemDialog),
     m_dialog_right(new QtRoundedRectItemDialog)
 {
-  #ifndef NDEBUG
-  Test();
-  #endif
   ui->setupUi(this);
 
   for (const auto& widget: { ui->widget_left,ui->widget_right })
@@ -169,15 +166,3 @@ void ribi::QtTestQtRoundedRectItemModifyDialog::SetItem(const boost::shared_ptr<
   ui->view_left->scene()->addItem(item.get());
 
 }
-
-#ifndef NDEBUG
-void ribi::QtTestQtRoundedRectItemModifyDialog::Test() noexcept
-{
-  {
-    static bool is_tested{false};
-    if (is_tested) return;
-    is_tested = true;
-  }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
-}
-#endif
