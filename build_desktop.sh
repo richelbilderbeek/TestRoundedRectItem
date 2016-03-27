@@ -1,4 +1,4 @@
 #!/bin/bash
 qmake TestQtRoundedRectItemDesktop.pro
 make
-./TestQtRoundedRectItemDesktop
+# ./TestQtRoundedRectItemDesktop # Don't call this on Travis

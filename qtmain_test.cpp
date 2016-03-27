@@ -3,7 +3,7 @@
 #define BOOST_TEST_DYN_LINK
 #include <boost/test/unit_test.hpp>
 
-#define BOOST_TEST_MODULE test_conceptmap_desktop_module
+#define BOOST_TEST_MODULE test_qtroundedrectitem_desktop_module
 
 bool initialise() { return true; }
 
