@@ -35,4 +35,3 @@ script:
  - ./get_code_cov.sh
  - codecov
  - ./build_desktop.sh
- - ./build_console.sh
